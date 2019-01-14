@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.168
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TinyBotFramework.Core", "TinyBotFramework.Core\TinyBotFramework.Core.csproj", "{D77473BB-3B3D-41F8-B612-31B7D85111D1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "JaviBot", "JaviBot", "{79207769-4EC5-4035-93B9-9C5252797D94}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JaviBot.Model", "JaviBot.Model\JaviBot.Model.csproj", "{E9A39566-DFB1-485A-9B04-FD3711A5587C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{6071209C-C3D7-49F8-A9F1-1196E91C0276}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JaviBot.Tests", "JaviBot.Tests\JaviBot.Tests.csproj", "{CE72AA7F-9C04-4489-BEC9-3E8153BCE0D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleChat", "ConsoleChat\ConsoleChat.csproj", "{F25B255A-CB4C-42AC-869B-4501C93801F9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D77473BB-3B3D-41F8-B612-31B7D85111D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D77473BB-3B3D-41F8-B612-31B7D85111D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D77473BB-3B3D-41F8-B612-31B7D85111D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D77473BB-3B3D-41F8-B612-31B7D85111D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9A39566-DFB1-485A-9B04-FD3711A5587C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9A39566-DFB1-485A-9B04-FD3711A5587C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9A39566-DFB1-485A-9B04-FD3711A5587C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9A39566-DFB1-485A-9B04-FD3711A5587C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE72AA7F-9C04-4489-BEC9-3E8153BCE0D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE72AA7F-9C04-4489-BEC9-3E8153BCE0D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE72AA7F-9C04-4489-BEC9-3E8153BCE0D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE72AA7F-9C04-4489-BEC9-3E8153BCE0D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F25B255A-CB4C-42AC-869B-4501C93801F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F25B255A-CB4C-42AC-869B-4501C93801F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F25B255A-CB4C-42AC-869B-4501C93801F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F25B255A-CB4C-42AC-869B-4501C93801F9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E9A39566-DFB1-485A-9B04-FD3711A5587C} = {79207769-4EC5-4035-93B9-9C5252797D94}
+		{6071209C-C3D7-49F8-A9F1-1196E91C0276} = {79207769-4EC5-4035-93B9-9C5252797D94}
+		{CE72AA7F-9C04-4489-BEC9-3E8153BCE0D4} = {6071209C-C3D7-49F8-A9F1-1196E91C0276}
+		{F25B255A-CB4C-42AC-869B-4501C93801F9} = {79207769-4EC5-4035-93B9-9C5252797D94}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0D0018DE-E12C-4B73-9E7D-E16A2A17FB07}
+	EndGlobalSection
+EndGlobal
